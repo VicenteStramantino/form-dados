@@ -5,7 +5,6 @@
 body {
     margin: 0;
     padding: 20px;
-    overflow: hidden;
     background: #f0f2f5;
     font-family: Arial, sans-serif;
 }
@@ -109,5 +108,28 @@ select {
     
     .dateInputs {
         grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    .formContainer {
+        padding: 20px;
+    }
+
+    .formTitle {
+        font-size: 20px;
+    }
+
+    label, input, select {
+        font-size: 12px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 14px;
     }
 }
